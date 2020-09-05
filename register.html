@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Registation Panel</title>
+</head>
+<body bgcolor="#9b9f84">
+    <h1 align="center">Registation Panel</h1>
+    <hr>
+<form action="thankyou.html">
+    <table bgcolor="5c755e" align="center" cellpadding="10">
+        <tr>
+            <td colspan="2" align="center">
+                <img height="150" src="img/1.png" alt="nu se deschide" >
+            </td>
+        </tr>
+        <tr>
+            <td>
+               <h2>First Name</h2>
+            </td>
+            <td>
+                <input type="text" required autofocus placeholder="First Name" maxlength="20">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h2>Last Name</h2>
+            </td>
+            <td>
+                <input type="text" required placeholder="Last Name" maxlength="20">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h2>Location</h2>
+            </td>
+            <td>
+                <select required>
+                <optgroup label="Moldova">
+                    <option>Chisinau</option>
+                </optgroup>
+                <optgroup label="Russia">
+                    <option>Moscow</option>
+                </optgroup>
+                <optgroup label="Romania">
+                    <option>Bucuresti</option>
+                </optgroup>
+                <optgroup label="Franch">
+                    <option>Paris</option>
+                </optgroup>optgroup>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h2>Your DOB</h2>
+            </td>
+            <td>
+                <input type="date" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h2>Your Email</h2>
+            </td>
+            <td>
+            <!--я хотел их связять но не знаю как
+                <input type="email" name="login" required>
+               <select required>
+            <option>@mail.ru</option>
+            <option>@bk.ru</option>
+            <option>@inbox.ru</option>
+            <option>@list.ru</option>
+                </select>-->
+                <input type="email" name="login" required placeholder="Email">
+                <!---->
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                 <h2>Short bio</h2>
+                 <textarea cols="55" rows="10" required placeholder="CV"></textarea>
+            </td>
+        </tr> 
+        <tr>
+            <td colspan="2">
+                <input type="checkbox" id="check1" required><label for="check1">I agree with <a href="terms.html" target="_blank">thems & rules!</a></label>
+            </td>
+        </tr> 
+        <tr>
+            <td colspan="2">
+                <button>
+                    Let's GO!
+                </button>
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
